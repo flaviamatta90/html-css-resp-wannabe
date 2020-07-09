@@ -23,13 +23,7 @@
   text-align: center;
 }
 
-@media screen and (max-width:420px;){
-  .container{
-    max-width: 420px;
-    margin:0;
-    font-size: 22px;
-  }
-}
+
 /* BLOCCO STEPS */
 #steps .row>.left,
 #steps .row>.central,
@@ -77,4 +71,20 @@ img {
 
 .clear {
   clear: both;
+}
+
+@media screen and (max-width:420px){
+  .row{
+    max-width: 420px;
+    margin: 0;
+  }
+
+  h1{
+    text-align: center;
+    color: blue;
+  }
+
+  img{
+    height: 120px;
+  }
 }
