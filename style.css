@@ -24,7 +24,7 @@
 }
 
 @media screen and (max-width:420px;){
-  .row{
+  .container{
     max-width: 420px;
     margin:0;
     font-size: 22px;
