@@ -73,10 +73,30 @@ img {
   clear: both;
 }
 
+
+/* responsive */
 @media screen and (max-width:420px){
-  .row{
-    max-width: 420px;
+  *{
+    box-sizing: border-box;
     margin: 0;
+    padding:0;
+  }
+
+  .container{
+    padding: 20px;
+  }
+
+  .row{
+    width: 100%;
+    margin-top:0;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right{
+    width: 100%;
   }
 
   h1{
@@ -84,7 +104,19 @@ img {
     color: blue;
   }
 
+  h3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
   img{
     height: 120px;
+    width: auto;
+    margin-top: 30px;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 0;
   }
 }
